@@ -1,0 +1,174 @@
+.app {
+  width: 100vw;
+  height: 50vh;
+}
+
+.app-title {
+  margin-top: 150px;
+  font-size: 45px;
+  text-align: center;
+}
+
+.app-layout {
+  margin: 0 auto;
+  margin-top: 50px;
+  width: 400px;
+  height: auto;
+  border: 1px solid black;
+  position: relative;
+  padding: 15px;
+  border-radius: 5px;
+  background-color: white;
+}
+
+input[type="text"] {
+  font-family: "Chilanka", cursive;
+  transition: 0.2s ease-in;
+}
+
+input[type="text"]:focus {
+  border: 1px solid rgb(13, 134, 118);
+  outline: none !important;
+  box-shadow: 0 0 10px #719ece;
+}
+
+.app-layoutInput {
+  position: relative;
+  width: 100%;
+}
+
+.app-layoutInput input {
+  width: 100%;
+  box-sizing: border-box;
+  font-size: 16px;
+  padding: 8px 10px;
+  border-radius: 8px;
+  outline: none;
+  border: 1px solid rgb(77, 77, 77);
+}
+
+.iconAdd {
+  font-size: 18px;
+  position: absolute;
+  top: 8px;
+  right: 10px;
+  cursor: pointer;
+}
+
+.app-layoutList {
+  margin-top: 15px;
+  display: flex;
+  align-items: center;
+}
+
+p {
+  display: inline;
+  font-size: 20px;
+  margin: 0;
+  padding: 0 10px;
+  cursor: pointer;
+}
+
+.iconCircle {
+  font-size: 23px;
+  cursor: pointer;
+}
+
+.iconEdit {
+  font-size: 18px;
+  margin-right: 10px;
+  cursor: pointer;
+  color: #aaa;
+  transition: 0.2s ease-in;
+}
+
+.iconMinus {
+  font-size: 18px;
+  cursor: pointer;
+  color: #aaa;
+  transition: 0.2s ease-in;
+}
+
+.iconMinus:hover,
+.iconEdit:hover {
+  color: black;
+}
+
+.app-layoutDone {
+  color: #aaa;
+  display: flex;
+  align-items: center;
+  text-decoration: line-through;
+  margin-top: 10px;
+}
+
+.app-layoutDone p {
+  color: #aaa;
+}
+
+.listName {
+  position: relative;
+  flex: 2;
+  display: flex;
+  align-items: center;
+}
+
+.list-rightModule {
+}
+
+.iconCircle {
+}
+
+.iconAdd {
+  visibility: hidden;
+}
+
+.inputAdd:focus .iconAdd,
+.app-layoutInput:hover .iconAdd {
+  visibility: visible;
+}
+
+.iconCircle {
+  position: relative;
+}
+
+.checkCircle {
+  visibility: hidden;
+  position: absolute;
+  left: 0;
+}
+
+.iconCircle:hover .emptyCircle {
+  visibility: hidden;
+}
+
+.iconCircle:hover .checkCircle {
+  visibility: visible;
+}
+
+.editInput {
+  font-size: 15px;
+  position: absolute;
+  padding: 5px;
+  left: 10px;
+  width: 95%;
+  box-sizing: border-box;
+  border-radius: 5px;
+  border: 1px solid #aaa;
+}
+
+input::-webkit-input-placeholder {
+  font-family: "Chilanka", cursive, Arial, Helvetica, sans-serif;
+}
+
+input:-ms-input-placeholder {
+  font-family: "Chilanka", cursive, Arial, Helvetica, sans-serif;
+}
+
+input:-moz-placeholder {
+  font-family: "Chilanka", cursive, Arial, Helvetica, sans-serif;
+}
+
+input::-moz-placeholder {
+  font-family: "Chilanka", cursive, Arial, Helvetica, sans-serif;
+}
